@@ -1,0 +1,60 @@
+<header>
+  <img src="assets/logo.png" class="logo" />
+
+  <nav>
+    <a href="#why">Why Book With Us</a>
+    <a href="#how">How It Works</a>
+    <a href="#about">About Us</a>
+    <a href="#quote">Request Quote</a>
+    <a href="#quote" class="btn">Free Quote</a>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-box">
+    <h1>Plan Your Disney Cruise With Expert Help — At No Cost to You</h1>
+    <a href="#quote">Get Free Quote</a>
+  </div>
+</section>
+
+<section id="why">
+  <h2>Why Book With Us</h2>
+  <p>We specialize in Disney Cruises only, and we make planning simple from start to sail.</p>
+
+  <div class="grid">
+    <img src="assets/feature-1.png">
+    <img src="assets/feature-2.png">
+    <img src="assets/feature-3.png">
+    <img src="assets/feature-4.png">
+    <img src="assets/feature-5.png">
+    <img src="assets/feature-6.png">
+  </div>
+</section>
+
+<section id="how" class="gray">
+  <h2>Simple, Stress-Free Planning</h2>
+
+  <div class="steps">
+    <div><b>1</b><h3>Request a Quote</h3><p>Share your dates and group details.</p></div>
+    <div><b>2</b><h3>We Plan With You</h3><p>We recommend the best options.</p></div>
+    <div><b>3</b><h3>Get Ready to Sail</h3><p>We support your booking until departure.</p></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Your Disney Cruise Planner</h2>
+  <p>Planning a Disney Cruise should feel exciting, not overwhelming. We help families choose the right sailing, avoid common mistakes, and get the most value.</p>
+</section>
+
+<section id="quote" class="quote">
+  <h2>Request a Free Quote</h2>
+
+  <form>
+    <input placeholder="First Name">
+    <input placeholder="Last Name">
+    <input placeholder="Phone">
+    <input placeholder="Email">
+    <textarea placeholder="Tell us about your dream vacation"></textarea>
+    <button>Request Quote</button>
+  </form>
+</section>
