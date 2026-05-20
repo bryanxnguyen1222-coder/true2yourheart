@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111827;
+}
+
+header {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 140px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+nav a {
+  color: #16295f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.btn {
+  background: #2f427f;
+  color: white;
+  padding: 17px 28px;
+  border-radius: 40px;
+}
+
+section {
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.hero {
+  height: 360px;
+  background: url("assets/hero.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-box {
+  background: rgba(20, 20, 30, .65);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 760px;
+}
+
+.hero h1 {
+  color: #ffd42f;
+  font-size: 46px;
+  margin: 0 0 20px;
+}
+
+.hero a {
+  background: #2f427f;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #2f427f;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.gray {
+  background: #f5f7fb;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.steps div {
+  background: #2f427f;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.steps b {
+  background: #ffd42f;
+  color: #2f427f;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+
+.steps h3 {
+  color: #ffd42f;
+}
+
+.quote {
+  background: #2f427f;
+  color: white;
+}
+
+.quote h2 {
+  color: white;
+}
+
+form {
+  background: white;
+  max-width: 700px;
+  margin: 30px auto 0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #2f427f;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+@media(max-width: 800px) {
+  header {
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid,
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+}
